@@ -372,7 +372,7 @@ const AGENTS = (() => {
   /* ---------- per-plan behavior ---------- */
   function atSeat(a) { return a.seat && sameTile(a, a.seat); }
   /* Which way a seated figure faces its desk. Read live from the CONFIG seat so the backdrop owner can set
-     seat.face = 'east' / 'west' later (CONFIG seats are mostly 'north'; the Garden couch is 'south'). */
+     seat.face = 'east' / 'west' later (most hand-placed seats face 'east'; the Garden couch is 'south'). */
   function seatFace(a) {
     const live = a.seat && !a.isDrone ? seatOf(a.key) : null;
     const f = (live && live.face) || (a.seat && a.seat.face) || 'north';

@@ -78,9 +78,9 @@
    "onyx": {
     "tile": [
      7,
-     3
+     4
     ],
-    "face": "north"
+    "face": "east"
    }
   }
  },
@@ -134,7 +134,7 @@
      5,
      3
     ],
-    "face": "west"
+    "face": "east"
    }
   }
  },
@@ -263,7 +263,7 @@
      7,
      2
     ],
-    "face": "north"
+    "face": "east"
    }
   }
  },
@@ -278,6 +278,14 @@
      1
     ],
     "keep": [
+     [
+      0,
+      0
+     ],
+     [
+      1,
+      0
+     ],
      [
       -1,
       -1
@@ -411,14 +419,14 @@
      2,
      2
     ],
-    "face": "north"
+    "face": "east"
    },
    "mica": {
     "tile": [
      7,
      2
     ],
-    "face": "north"
+    "face": "east"
    }
   }
  },
@@ -538,7 +546,7 @@
      4,
      6
     ],
-    "face": "north"
+    "face": "east"
    }
   }
  },
@@ -725,10 +733,10 @@
   "seats": {
    "olivine": {
     "tile": [
-     7,
-     4
+     6,
+     6
     ],
-    "face": "north"
+    "face": "east"
    }
   }
  },
@@ -1174,17 +1182,17 @@
   "seats": {
    "basalt": {
     "tile": [
-     2,
-     3
+     3,
+     4
     ],
-    "face": "north"
+    "face": "east"
    },
    "garnet": {
     "tile": [
      7,
      3
     ],
-    "face": "north"
+    "face": "east"
    }
   }
  },
@@ -1259,7 +1267,7 @@
      1,
      2
     ],
-    "face": "north"
+    "face": "east"
    }
   }
  },
@@ -1588,7 +1596,7 @@
      2,
      6
     ],
-    "face": "north"
+    "face": "east"
    }
   }
  }

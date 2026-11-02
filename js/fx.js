@@ -104,14 +104,16 @@ const FX = (() => {
       let tw = 0; for (const ln of b.lines) tw = Math.max(tw, ctx.measureText(ln).width);
       const w = Math.ceil(tw) + 14, h = 6 + 16 * b.lines.length;
       const bob = Math.sin(b.age * 3) * 1.5;
-      const x0 = Math.round(s.sx - w / 2), y0 = Math.round(s.sy - HEAD_PX * ps - 18 - h - tl + bob);   // tail 6 px (scaled) above the nameplate pill
+      const side = k === 'ask' ? Math.round(w / 2) - 10 : 0;   // an ask sits to the speaker's right, clear of anyone behind
+      const vl = CAMERA.toWorld(0, 0).x + 4, vr = CAMERA.toWorld(innerWidth, 0).x - w - 4;   // keep the box on screen; the tail stays on the speaker
+      const x0 = Math.round(Math.max(vl, Math.min(s.sx - w / 2 + side, vr))), y0 = Math.round(s.sy - HEAD_PX * ps - 18 - h - tl + bob);   // tail 6 px (scaled) above the nameplate pill
       ctx.globalAlpha = a;
       ctx.fillStyle = c.edge; ctx.fillRect(x0 - 1, y0 + 2, w + 2, h - 4); ctx.fillRect(x0 + 2, y0 - 1, w - 4, h + 2);
       ctx.fillStyle = c.bg; ctx.fillRect(x0, y0 + 2, w, h - 4); ctx.fillRect(x0 + 2, y0, w - 4, h);
       // tail
       ctx.fillStyle = c.edge; for (let k = 0; k < 3; k++) { const hw = Math.max(1, Math.round((3 - k) * ps)); ctx.fillRect(Math.round(s.sx) - hw, y0 + h + Math.round(k * 2 * ps), hw * 2, Math.round(2 * ps)); }
       ctx.fillStyle = c.bg; ctx.fillRect(Math.round(s.sx) - 2, y0 + h - 1, 4, 2);
-      ctx.fillStyle = c.fg; b.lines.forEach((ln, i) => ctx.fillText(ln, Math.round(s.sx), y0 + 11 + i * 16));
+      ctx.fillStyle = c.fg; b.lines.forEach((ln, i) => ctx.fillText(ln, x0 + w / 2, y0 + 11 + i * 16));
     }
     ctx.globalAlpha = 1;
   }

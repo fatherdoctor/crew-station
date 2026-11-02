@@ -47,9 +47,9 @@ These appear on this tree and are the baseline, measured with a stub that reads 
 |---|---|
 | `objects:` | 4 footprints differ from the measured sprite base, twice each (planning storage cabinet, bench testing section, lounge planter row south, pad service crane); `records door N tile (30,11) under north archive shelves` |
 | `floors: ... placed by hand but off the floor` | 13 hand-placed objects slightly over a polygon edge |
-| `placements: garnet seat 7,3 has no object beside it` | Then `floors: DESK CHECK FAILED garnet` |
+| `placements: basalt seat 3,4 has no object beside it`, `placements: garnet seat 7,3 has no object beside it` | Each followed by its `floors: DESK CHECK FAILED` line. Both stand clear of the desk on purpose and look right |
 | `floors: DESK CHECK FAILED obsidian` | The couch seat sits behind its couch |
-| `floors: base audit` | The observatory astronomy desk and workshop work desk cover a walkable tile |
+| `floors: base audit` | The observatory astronomy desk and workshop work desk cover walkable tiles. No seat is on them; a walking figure could clip them |
 | `fx: <n> painted hall lamps found` | A count, not a problem. It reads 0 under a stubbed canvas |
 | Chrome: `Canvas2D: Multiple readback operations ... willReadFrequently` | Reported by a browser test under `?demo=1` or after a board refresh; harmless |
 
