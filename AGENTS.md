@@ -18,6 +18,7 @@ ambient and claims nothing.
 ```sh
 node tools/check.js                       # exits 0 when the tree is consistent; needs only node
 node tools/check.js --board my-board.json # validates your board file instead of the default
+# The check always validates the tree that holds this tools/ folder, so run it from your own copy.
 python3 -m http.server 8000               # from the repository root; any static server works
 ```
 
@@ -108,7 +109,7 @@ Other paths:
 
 1. **Place the files.** Copy `index.html`, `css/`, `js/`, `assets/` and `data/` into one folder served by your
    project, for example `public/station/`. All URLs are relative to the page, so any subpath works. Keep the folder
-   layout. `tools/`, `art-kit/` and the docs are optional, but keep `LICENSE`, `NOTICE.md` and `assets/fonts/OFL.txt`
+   layout. `art-kit/` and the docs are optional. Keep `tools/` if you want to check your copy. Keep `LICENSE`, `NOTICE.md` and `assets/fonts/OFL.txt`
    with the files.
 2. **Serve them.** Any static host. It must serve `.png`, `.webp`, `.woff2` and `.json` with normal content types.
    There is no server code to run and no install step.
@@ -120,6 +121,8 @@ Other paths:
    - URL: `index.html?board=/api/board.json`
    - Page: `<meta name="crew-board-url" content="/api/board.json">` in `index.html`
    - Default: the `return 'data/sample-board.json'` line in `boardUrl()` in `js/config.js`
+
+   A relative URL resolves against the page; a leading `/` against the site root. The header's Board link in `index.html` points at the sample, so change it too.
 
    Validate with `node tools/check.js --board your-file.json`.
 5. **Decide your names.** The crew and rooms are data in `js/config.js`; see the sections below.
@@ -285,7 +288,9 @@ To add a member `newkey`:
    keys `working queued waiting-on-you blocked done-today sleeping`.
 5. `assets/placements.json`: add a seat if the room needs an exact spot; `css/station.css`: add `--m-newkey`.
 6. Give the seat a desk: see Add a desk.
-7. Board: add a `crew.members` entry. Run `node tools/check.js`.
+7. Board: add a `crew.members` entry with its `queue`, or map the queue in `QUEUE_TO_MEMBER` in `js/board.js`. Run `node tools/check.js`.
+
+The check does not catch a missing queue mapping, a missing `--m-newkey`, or a board member with an unknown key (a note only).
 
 A member without a board entry shows in captions as "not on the board". A pool member (`pool: true`, `minCount`,
 `maxCount`) gets several figures and no seat.
@@ -300,6 +305,8 @@ A member without a board entry shows in captions as "not on the board". A pool m
 4. In a browser, check the console for `floors: desk check` and the `backdrop: reach check`.
 
 ## Add or change a room
+
+To rename a room on screen, change only its `name` in `ROOMS`; `key` stays (the `lounge` room is named Garden).
 
 1. `js/config.js`: add to `ROOMS` (`key`, `name`, rect, `kind`, `floor`, `wall`, `accent`, `desc`, `seats`, `spots`) and
    add its openings to `DOORS`. Halls are `kind: 'corridor'` rects; rooms must touch them through a door.
