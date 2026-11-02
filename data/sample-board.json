@@ -1,0 +1,1509 @@
+{
+ "sample": true,
+ "generated": "2000-01-15 12:00",
+ "today": "2000-01-15",
+ "cycle": {
+  "current": 7,
+  "cycles": [
+   {
+    "n": 7,
+    "name": "Sample cycle"
+   }
+  ]
+ },
+ "queue_skips": {
+  "2000-01-15": {
+   "garnet": 1
+  }
+ },
+ "crew": {
+  "members": [
+   {
+    "key": "cobalt",
+    "name": "Cobalt",
+    "role": "Dispatcher",
+    "queue": "cobalt",
+    "art": "cobalt",
+    "state": "Working",
+    "state_key": "working",
+    "card": "TASK-103",
+    "task": "Merging the checked work",
+    "since": "2000-01-15 11:40",
+    "waiting_on": [],
+    "blocked_on": [],
+    "helpers_running": 0,
+    "runs_today": 4,
+    "runs_7d": 30,
+    "points_cycle": 21,
+    "points_7d": [
+     {
+      "date": "2000-01-09",
+      "points": 3
+     },
+     {
+      "date": "2000-01-10",
+      "points": 2
+     },
+     {
+      "date": "2000-01-11",
+      "points": 4
+     },
+     {
+      "date": "2000-01-12",
+      "points": 1
+     },
+     {
+      "date": "2000-01-13",
+      "points": 5
+     },
+     {
+      "date": "2000-01-14",
+      "points": 3
+     },
+     {
+      "date": "2000-01-15",
+      "points": 2
+     }
+    ],
+    "streak": 6,
+    "best_streak": 9,
+    "closed_7d": 5,
+    "last_run": "2000-01-15 11:40"
+   },
+   {
+    "key": "agate",
+    "name": "Agate",
+    "role": "Planner",
+    "queue": null,
+    "art": "agate",
+    "state": "Done today",
+    "state_key": "done-today",
+    "card": null,
+    "task": "Posted the plan for the day",
+    "since": "2000-01-15 08:05",
+    "waiting_on": [],
+    "blocked_on": [],
+    "helpers_running": 0,
+    "runs_today": 1,
+    "runs_7d": 14,
+    "points_cycle": 0,
+    "points_7d": [
+     {
+      "date": "2000-01-09",
+      "points": 0
+     },
+     {
+      "date": "2000-01-10",
+      "points": 0
+     },
+     {
+      "date": "2000-01-11",
+      "points": 0
+     },
+     {
+      "date": "2000-01-12",
+      "points": 0
+     },
+     {
+      "date": "2000-01-13",
+      "points": 0
+     },
+     {
+      "date": "2000-01-14",
+      "points": 0
+     },
+     {
+      "date": "2000-01-15",
+      "points": 0
+     }
+    ],
+    "streak": null,
+    "best_streak": 0,
+    "closed_7d": 0,
+    "last_run": "2000-01-15 08:05",
+    "counts": "runs"
+   },
+   {
+    "key": "basalt",
+    "name": "Basalt",
+    "role": "Builder",
+    "queue": "basalt",
+    "art": "basalt",
+    "state": "Working",
+    "state_key": "working",
+    "card": "TASK-104",
+    "task": "Building the new status view",
+    "since": "2000-01-15 11:15",
+    "waiting_on": [],
+    "blocked_on": [],
+    "helpers_running": 1,
+    "runs_today": 3,
+    "runs_7d": 22,
+    "points_cycle": 34,
+    "points_7d": [
+     {
+      "date": "2000-01-09",
+      "points": 5
+     },
+     {
+      "date": "2000-01-10",
+      "points": 4
+     },
+     {
+      "date": "2000-01-11",
+      "points": 6
+     },
+     {
+      "date": "2000-01-12",
+      "points": 3
+     },
+     {
+      "date": "2000-01-13",
+      "points": 5
+     },
+     {
+      "date": "2000-01-14",
+      "points": 4
+     },
+     {
+      "date": "2000-01-15",
+      "points": 3
+     }
+    ],
+    "streak": 4,
+    "best_streak": 7,
+    "closed_7d": 6,
+    "last_run": "2000-01-15 11:15"
+   },
+   {
+    "key": "garnet",
+    "name": "Garnet",
+    "role": "Builder",
+    "queue": "garnet",
+    "art": "garnet",
+    "state": "Queued",
+    "state_key": "queued",
+    "card": "TASK-105",
+    "task": "Next up: tidy the settings form",
+    "since": null,
+    "waiting_on": [],
+    "blocked_on": [],
+    "helpers_running": 0,
+    "runs_today": 1,
+    "runs_7d": 9,
+    "points_cycle": 12,
+    "points_7d": [
+     {
+      "date": "2000-01-09",
+      "points": 2
+     },
+     {
+      "date": "2000-01-10",
+      "points": 0
+     },
+     {
+      "date": "2000-01-11",
+      "points": 3
+     },
+     {
+      "date": "2000-01-12",
+      "points": 2
+     },
+     {
+      "date": "2000-01-13",
+      "points": 0
+     },
+     {
+      "date": "2000-01-14",
+      "points": 1
+     },
+     {
+      "date": "2000-01-15",
+      "points": 2
+     }
+    ],
+    "streak": 2,
+    "best_streak": 3,
+    "closed_7d": 2,
+    "last_run": "2000-01-15 09:30"
+   },
+   {
+    "key": "onyx",
+    "name": "Onyx",
+    "role": "Designer and reviewer",
+    "queue": "onyx",
+    "art": "onyx",
+    "state": "Working",
+    "state_key": "working",
+    "card": "TASK-102r",
+    "task": "Reviewing the search index change",
+    "since": "2000-01-15 11:50",
+    "waiting_on": [],
+    "blocked_on": [],
+    "helpers_running": 0,
+    "runs_today": 2,
+    "runs_7d": 18,
+    "points_cycle": 26,
+    "points_7d": [
+     {
+      "date": "2000-01-09",
+      "points": 4
+     },
+     {
+      "date": "2000-01-10",
+      "points": 3
+     },
+     {
+      "date": "2000-01-11",
+      "points": 2
+     },
+     {
+      "date": "2000-01-12",
+      "points": 5
+     },
+     {
+      "date": "2000-01-13",
+      "points": 3
+     },
+     {
+      "date": "2000-01-14",
+      "points": 4
+     },
+     {
+      "date": "2000-01-15",
+      "points": 3
+     }
+    ],
+    "streak": 11,
+    "best_streak": 11,
+    "closed_7d": 4,
+    "last_run": "2000-01-15 11:50"
+   },
+   {
+    "key": "topaz",
+    "name": "Topaz",
+    "role": "Mechanical fixes",
+    "queue": "topaz",
+    "art": "topaz",
+    "state": "Blocked",
+    "state_key": "blocked",
+    "card": "TASK-106",
+    "task": "Rename the export columns",
+    "since": "2000-01-15 10:10",
+    "waiting_on": [],
+    "blocked_on": [
+     "TASK-104"
+    ],
+    "helpers_running": 0,
+    "runs_today": 1,
+    "runs_7d": 11,
+    "points_cycle": 15,
+    "points_7d": [
+     {
+      "date": "2000-01-09",
+      "points": 1
+     },
+     {
+      "date": "2000-01-10",
+      "points": 2
+     },
+     {
+      "date": "2000-01-11",
+      "points": 3
+     },
+     {
+      "date": "2000-01-12",
+      "points": 2
+     },
+     {
+      "date": "2000-01-13",
+      "points": 1
+     },
+     {
+      "date": "2000-01-14",
+      "points": 0
+     },
+     {
+      "date": "2000-01-15",
+      "points": 1
+     }
+    ],
+    "streak": 3,
+    "best_streak": 5,
+    "closed_7d": 3,
+    "last_run": "2000-01-15 10:10"
+   },
+   {
+    "key": "zircon",
+    "name": "Zircon",
+    "role": "Writer",
+    "queue": "zircon",
+    "art": "zircon",
+    "state": "Waiting on you",
+    "state_key": "waiting-on-you",
+    "card": "TASK-107",
+    "task": "Draft of the getting started page",
+    "since": "2000-01-15 09:50",
+    "waiting_on": [
+     "ASK-1"
+    ],
+    "blocked_on": [],
+    "helpers_running": 0,
+    "runs_today": 1,
+    "runs_7d": 7,
+    "points_cycle": 9,
+    "points_7d": [
+     {
+      "date": "2000-01-09",
+      "points": 0
+     },
+     {
+      "date": "2000-01-10",
+      "points": 2
+     },
+     {
+      "date": "2000-01-11",
+      "points": 1
+     },
+     {
+      "date": "2000-01-12",
+      "points": 0
+     },
+     {
+      "date": "2000-01-13",
+      "points": 3
+     },
+     {
+      "date": "2000-01-14",
+      "points": 1
+     },
+     {
+      "date": "2000-01-15",
+      "points": 1
+     }
+    ],
+    "streak": 5,
+    "best_streak": 5,
+    "closed_7d": 2,
+    "last_run": "2000-01-15 09:50"
+   },
+   {
+    "key": "mica",
+    "name": "Mica",
+    "role": "Archivist",
+    "queue": "mica",
+    "art": "mica",
+    "state": "Done today",
+    "state_key": "done-today",
+    "card": null,
+    "task": "Filed the weekly notes",
+    "since": "2000-01-15 07:30",
+    "waiting_on": [],
+    "blocked_on": [],
+    "helpers_running": 0,
+    "runs_today": 1,
+    "runs_7d": 7,
+    "points_cycle": 6,
+    "points_7d": [
+     {
+      "date": "2000-01-09",
+      "points": 1
+     },
+     {
+      "date": "2000-01-10",
+      "points": 0
+     },
+     {
+      "date": "2000-01-11",
+      "points": 1
+     },
+     {
+      "date": "2000-01-12",
+      "points": 1
+     },
+     {
+      "date": "2000-01-13",
+      "points": 1
+     },
+     {
+      "date": "2000-01-14",
+      "points": 1
+     },
+     {
+      "date": "2000-01-15",
+      "points": 1
+     }
+    ],
+    "streak": 7,
+    "best_streak": 8,
+    "closed_7d": 1,
+    "last_run": "2000-01-15 07:30"
+   },
+   {
+    "key": "quartz",
+    "name": "Quartz",
+    "role": "Infrastructure",
+    "queue": "quartz",
+    "art": "quartz",
+    "state": "Working",
+    "state_key": "working",
+    "card": "TASK-108",
+    "task": "Rotating the demo logs",
+    "since": "2000-01-15 11:55",
+    "waiting_on": [],
+    "blocked_on": [],
+    "helpers_running": 0,
+    "runs_today": 5,
+    "runs_7d": 35,
+    "points_cycle": 18,
+    "points_7d": [
+     {
+      "date": "2000-01-09",
+      "points": 2
+     },
+     {
+      "date": "2000-01-10",
+      "points": 3
+     },
+     {
+      "date": "2000-01-11",
+      "points": 2
+     },
+     {
+      "date": "2000-01-12",
+      "points": 3
+     },
+     {
+      "date": "2000-01-13",
+      "points": 2
+     },
+     {
+      "date": "2000-01-14",
+      "points": 3
+     },
+     {
+      "date": "2000-01-15",
+      "points": 3
+     }
+    ],
+    "streak": 8,
+    "best_streak": 12,
+    "closed_7d": 4,
+    "last_run": "2000-01-15 11:55"
+   },
+   {
+    "key": "pyrite",
+    "name": "Pyrite",
+    "role": "Health watch",
+    "queue": null,
+    "art": "pyrite",
+    "state": "Sleeping",
+    "state_key": "sleeping",
+    "card": null,
+    "task": null,
+    "since": "2000-01-15 06:00",
+    "waiting_on": [],
+    "blocked_on": [],
+    "helpers_running": 0,
+    "runs_today": 1,
+    "runs_7d": 7,
+    "points_cycle": 0,
+    "points_7d": [
+     {
+      "date": "2000-01-09",
+      "points": 0
+     },
+     {
+      "date": "2000-01-10",
+      "points": 0
+     },
+     {
+      "date": "2000-01-11",
+      "points": 0
+     },
+     {
+      "date": "2000-01-12",
+      "points": 0
+     },
+     {
+      "date": "2000-01-13",
+      "points": 0
+     },
+     {
+      "date": "2000-01-14",
+      "points": 0
+     },
+     {
+      "date": "2000-01-15",
+      "points": 0
+     }
+    ],
+    "streak": null,
+    "best_streak": 0,
+    "closed_7d": 0,
+    "last_run": "2000-01-15 06:00",
+    "counts": "runs"
+   },
+   {
+    "key": "olivine",
+    "name": "Olivine",
+    "role": "Records",
+    "queue": null,
+    "art": "olivine",
+    "state": "Queued",
+    "state_key": "queued",
+    "card": null,
+    "task": "Next up: sort the intake pile",
+    "since": null,
+    "waiting_on": [],
+    "blocked_on": [],
+    "helpers_running": 0,
+    "runs_today": 1,
+    "runs_7d": 7,
+    "points_cycle": 0,
+    "points_7d": [
+     {
+      "date": "2000-01-09",
+      "points": 0
+     },
+     {
+      "date": "2000-01-10",
+      "points": 0
+     },
+     {
+      "date": "2000-01-11",
+      "points": 0
+     },
+     {
+      "date": "2000-01-12",
+      "points": 0
+     },
+     {
+      "date": "2000-01-13",
+      "points": 0
+     },
+     {
+      "date": "2000-01-14",
+      "points": 0
+     },
+     {
+      "date": "2000-01-15",
+      "points": 0
+     }
+    ],
+    "streak": null,
+    "best_streak": 0,
+    "closed_7d": 0,
+    "last_run": "2000-01-15 05:00",
+    "counts": "runs"
+   },
+   {
+    "key": "obsidian",
+    "name": "Obsidian",
+    "role": "Outside reviewer",
+    "queue": "obsidian",
+    "art": "obsidian",
+    "state": "Sleeping",
+    "state_key": "sleeping",
+    "card": null,
+    "task": null,
+    "since": "2000-01-15 03:00",
+    "waiting_on": [],
+    "blocked_on": [],
+    "helpers_running": 0,
+    "runs_today": 0,
+    "runs_7d": 2,
+    "points_cycle": 4,
+    "points_7d": [
+     {
+      "date": "2000-01-09",
+      "points": 0
+     },
+     {
+      "date": "2000-01-10",
+      "points": 2
+     },
+     {
+      "date": "2000-01-11",
+      "points": 0
+     },
+     {
+      "date": "2000-01-12",
+      "points": 0
+     },
+     {
+      "date": "2000-01-13",
+      "points": 2
+     },
+     {
+      "date": "2000-01-14",
+      "points": 0
+     },
+     {
+      "date": "2000-01-15",
+      "points": 0
+     }
+    ],
+    "streak": 2,
+    "best_streak": 2,
+    "closed_7d": 1,
+    "last_run": "2000-01-15 03:00"
+   },
+   {
+    "key": "drones",
+    "name": "Drones",
+    "role": "Short-lived helpers",
+    "queue": null,
+    "art": "drones",
+    "state": "Working",
+    "state_key": "working",
+    "card": null,
+    "task": "Helping Basalt",
+    "since": null,
+    "waiting_on": [],
+    "blocked_on": [],
+    "helpers_running": 0,
+    "runs_today": 6,
+    "runs_7d": 40,
+    "points_cycle": 0,
+    "points_7d": [
+     {
+      "date": "2000-01-09",
+      "points": 0
+     },
+     {
+      "date": "2000-01-10",
+      "points": 0
+     },
+     {
+      "date": "2000-01-11",
+      "points": 0
+     },
+     {
+      "date": "2000-01-12",
+      "points": 0
+     },
+     {
+      "date": "2000-01-13",
+      "points": 0
+     },
+     {
+      "date": "2000-01-14",
+      "points": 0
+     },
+     {
+      "date": "2000-01-15",
+      "points": 0
+     }
+    ],
+    "streak": null,
+    "best_streak": 0,
+    "closed_7d": 0,
+    "last_run": "2000-01-15 11:15",
+    "counts": "runs",
+    "helpers": {
+     "hours": 24,
+     "count": 6,
+     "by_queue": {
+      "basalt": 4,
+      "onyx": 2
+     }
+    }
+   }
+  ],
+  "days": [
+   "2000-01-09",
+   "2000-01-10",
+   "2000-01-11",
+   "2000-01-12",
+   "2000-01-13",
+   "2000-01-14",
+   "2000-01-15"
+  ],
+  "usage_48h": [
+   {
+    "t": "2000-01-13 16:00",
+    "used_pct": 24
+   },
+   {
+    "t": "2000-01-14 00:00",
+    "used_pct": 27
+   },
+   {
+    "t": "2000-01-14 08:00",
+    "used_pct": 30
+   },
+   {
+    "t": "2000-01-14 16:00",
+    "used_pct": 33
+   },
+   {
+    "t": "2000-01-15 00:00",
+    "used_pct": 36
+   },
+   {
+    "t": "2000-01-15 08:00",
+    "used_pct": 39
+   },
+   {
+    "t": "2000-01-15 12:00",
+    "used_pct": 42
+   }
+  ],
+  "spent_vs_earned": [
+   {
+    "date": "2000-01-09",
+    "spent": 30,
+    "earned": 22,
+    "gap": 8,
+    "other_work": 3
+   },
+   {
+    "date": "2000-01-10",
+    "spent": 32,
+    "earned": 23,
+    "gap": 9,
+    "other_work": 4
+   },
+   {
+    "date": "2000-01-11",
+    "spent": 34,
+    "earned": 24,
+    "gap": 10,
+    "other_work": 5
+   },
+   {
+    "date": "2000-01-12",
+    "spent": 36,
+    "earned": 25,
+    "gap": 11,
+    "other_work": 3
+   },
+   {
+    "date": "2000-01-13",
+    "spent": 38,
+    "earned": 26,
+    "gap": 12,
+    "other_work": 4
+   },
+   {
+    "date": "2000-01-14",
+    "spent": 40,
+    "earned": 27,
+    "gap": 13,
+    "other_work": 5
+   },
+   {
+    "date": "2000-01-15",
+    "spent": 42,
+    "earned": 28,
+    "gap": 14,
+    "other_work": 3
+   }
+  ],
+  "trophies": {
+   "busiest": {
+    "name": "Basalt",
+    "value": 30
+   },
+   "most_closed": {
+    "name": "Basalt",
+    "value": 6
+   },
+   "longest_streak": {
+    "name": "Onyx",
+    "value": 11
+   },
+   "peak_parallel_queues": {
+    "value": 4
+   }
+  }
+ },
+ "cards": [
+  {
+   "code": "TASK-100",
+   "title": "Add a dark theme toggle",
+   "plain": "Add a dark theme toggle",
+   "queue": "basalt",
+   "column": "Done",
+   "status": "DONE 2000-01-15 APPROVED",
+   "points": 2,
+   "status_date": "2000-01-15"
+  },
+  {
+   "code": "TASK-100r",
+   "title": "Review: add a dark theme toggle",
+   "plain": "Review: add a dark theme toggle",
+   "queue": "onyx",
+   "column": "Done",
+   "status": "DONE 2000-01-15 APPROVED",
+   "points": 1,
+   "status_date": "2000-01-15"
+  },
+  {
+   "code": "TASK-101",
+   "title": "Fix the broken pagination",
+   "plain": "Fix the broken pagination",
+   "queue": "topaz",
+   "column": "Done",
+   "status": "DONE 2000-01-14 APPROVED WITH NOTES",
+   "points": 2,
+   "status_date": "2000-01-14"
+  },
+  {
+   "code": "TASK-102",
+   "title": "Speed up the search index",
+   "plain": "Speed up the search index",
+   "queue": "garnet",
+   "column": "In review",
+   "status": "READY FOR REVIEW 2000-01-15 11:48",
+   "points": 5,
+   "status_date": "2000-01-15"
+  },
+  {
+   "code": "TASK-102r",
+   "title": "Review: speed up the search index",
+   "plain": "Review: speed up the search index",
+   "queue": "onyx",
+   "column": "Next 24h",
+   "status": "in progress",
+   "points": 1,
+   "status_date": "2000-01-15"
+  },
+  {
+   "code": "TASK-103",
+   "title": "Merge the checked work",
+   "plain": "Merge the checked work",
+   "queue": "cobalt",
+   "column": "In review",
+   "status": "MERGED 2000-01-15 11:42",
+   "points": 1,
+   "status_date": "2000-01-15"
+  },
+  {
+   "code": "TASK-104",
+   "title": "Build the new status view",
+   "plain": "Build the new status view",
+   "queue": "basalt",
+   "column": "Next 24h",
+   "status": "in progress",
+   "points": 5,
+   "status_date": "2000-01-15"
+  },
+  {
+   "code": "TASK-105",
+   "title": "Tidy the settings form",
+   "plain": "Tidy the settings form",
+   "queue": "garnet",
+   "column": "Next 24h",
+   "status": "queued",
+   "points": 2,
+   "status_date": "2000-01-15"
+  },
+  {
+   "code": "TASK-106",
+   "title": "Rename the export columns",
+   "plain": "Rename the export columns",
+   "queue": "topaz",
+   "column": "Blocked/Waiting",
+   "status": "waits on TASK-104",
+   "points": 1,
+   "status_date": "2000-01-15"
+  },
+  {
+   "code": "TASK-107",
+   "title": "Write the getting started page",
+   "plain": "Write the getting started page",
+   "queue": "zircon",
+   "column": "Blocked/Waiting",
+   "status": "waits on ASK-1",
+   "points": 2,
+   "status_date": "2000-01-15"
+  },
+  {
+   "code": "TASK-108",
+   "title": "Rotate the demo logs",
+   "plain": "Rotate the demo logs",
+   "queue": "quartz",
+   "column": "Next 24h",
+   "status": "in progress",
+   "points": 1,
+   "status_date": "2000-01-15"
+  },
+  {
+   "code": "TASK-109",
+   "title": "Plan the plugin system",
+   "plain": "Plan the plugin system",
+   "queue": "onyx",
+   "column": "Backlog",
+   "status": "not started",
+   "points": 8,
+   "status_date": "2000-01-15"
+  },
+  {
+   "code": "ASK-1",
+   "title": "Pick a title for the getting started page",
+   "plain": "Pick a title for the getting started page",
+   "queue": "owner",
+   "column": "Blocked/Waiting",
+   "status": "waiting on the owner",
+   "points": 0,
+   "status_date": "2000-01-15"
+  },
+  {
+   "code": "MOB-1",
+   "title": "Mobile layout, part 1",
+   "plain": "Mobile layout, part 1",
+   "queue": "topaz",
+   "column": "Done",
+   "status": "DONE 2000-01-11 APPROVED",
+   "points": 2,
+   "status_date": "2000-01-11"
+  },
+  {
+   "code": "MOB-2",
+   "title": "Mobile layout, part 2",
+   "plain": "Mobile layout, part 2",
+   "queue": "topaz",
+   "column": "Done",
+   "status": "DONE 2000-01-12 APPROVED",
+   "points": 2,
+   "status_date": "2000-01-12"
+  },
+  {
+   "code": "MOB-3",
+   "title": "Mobile layout, part 3",
+   "plain": "Mobile layout, part 3",
+   "queue": "topaz",
+   "column": "Done",
+   "status": "DONE 2000-01-13 APPROVED",
+   "points": 2,
+   "status_date": "2000-01-13"
+  },
+  {
+   "code": "MOB-4",
+   "title": "Mobile layout, part 4",
+   "plain": "Mobile layout, part 4",
+   "queue": "topaz",
+   "column": "Done",
+   "status": "DONE 2000-01-14 APPROVED",
+   "points": 2,
+   "status_date": "2000-01-14"
+  },
+  {
+   "code": "MOB-5",
+   "title": "Mobile layout, part 5",
+   "plain": "Mobile layout, part 5",
+   "queue": "topaz",
+   "column": "Done",
+   "status": "DONE 2000-01-10 APPROVED",
+   "points": 2,
+   "status_date": "2000-01-10"
+  },
+  {
+   "code": "MOB-6",
+   "title": "Mobile layout, part 6",
+   "plain": "Mobile layout, part 6",
+   "queue": "topaz",
+   "column": "Done",
+   "status": "DONE 2000-01-11 APPROVED",
+   "points": 2,
+   "status_date": "2000-01-11"
+  },
+  {
+   "code": "MOB-7",
+   "title": "Mobile layout, part 7",
+   "plain": "Mobile layout, part 7",
+   "queue": "topaz",
+   "column": "Backlog",
+   "status": "not started",
+   "points": 2,
+   "status_date": "2000-01-15"
+  },
+  {
+   "code": "MOB-8",
+   "title": "Mobile layout, part 8",
+   "plain": "Mobile layout, part 8",
+   "queue": "topaz",
+   "column": "Backlog",
+   "status": "not started",
+   "points": 2,
+   "status_date": "2000-01-15"
+  },
+  {
+   "code": "IMP-1",
+   "title": "Import tool, part 1",
+   "plain": "Import tool, part 1",
+   "queue": "garnet",
+   "column": "Done",
+   "status": "DONE 2000-01-11 APPROVED",
+   "points": 2,
+   "status_date": "2000-01-11"
+  },
+  {
+   "code": "IMP-2",
+   "title": "Import tool, part 2",
+   "plain": "Import tool, part 2",
+   "queue": "garnet",
+   "column": "Done",
+   "status": "DONE 2000-01-12 APPROVED",
+   "points": 2,
+   "status_date": "2000-01-12"
+  },
+  {
+   "code": "IMP-3",
+   "title": "Import tool, part 3",
+   "plain": "Import tool, part 3",
+   "queue": "garnet",
+   "column": "Backlog",
+   "status": "not started",
+   "points": 2,
+   "status_date": "2000-01-15"
+  },
+  {
+   "code": "IMP-4",
+   "title": "Import tool, part 4",
+   "plain": "Import tool, part 4",
+   "queue": "garnet",
+   "column": "Backlog",
+   "status": "not started",
+   "points": 2,
+   "status_date": "2000-01-15"
+  },
+  {
+   "code": "IMP-5",
+   "title": "Import tool, part 5",
+   "plain": "Import tool, part 5",
+   "queue": "garnet",
+   "column": "Backlog",
+   "status": "not started",
+   "points": 2,
+   "status_date": "2000-01-15"
+  },
+  {
+   "code": "IMP-6",
+   "title": "Import tool, part 6",
+   "plain": "Import tool, part 6",
+   "queue": "garnet",
+   "column": "Backlog",
+   "status": "not started",
+   "points": 2,
+   "status_date": "2000-01-15"
+  },
+  {
+   "code": "LNG-1",
+   "title": "Translations, part 1",
+   "plain": "Translations, part 1",
+   "queue": "zircon",
+   "column": "Done",
+   "status": "DONE 2000-01-11 APPROVED",
+   "points": 2,
+   "status_date": "2000-01-11"
+  },
+  {
+   "code": "LNG-2",
+   "title": "Translations, part 2",
+   "plain": "Translations, part 2",
+   "queue": "zircon",
+   "column": "Done",
+   "status": "DONE 2000-01-12 APPROVED",
+   "points": 2,
+   "status_date": "2000-01-12"
+  },
+  {
+   "code": "LNG-3",
+   "title": "Translations, part 3",
+   "plain": "Translations, part 3",
+   "queue": "zircon",
+   "column": "Done",
+   "status": "DONE 2000-01-13 APPROVED",
+   "points": 2,
+   "status_date": "2000-01-13"
+  },
+  {
+   "code": "LNG-4",
+   "title": "Translations, part 4",
+   "plain": "Translations, part 4",
+   "queue": "zircon",
+   "column": "Done",
+   "status": "DONE 2000-01-14 APPROVED",
+   "points": 2,
+   "status_date": "2000-01-14"
+  },
+  {
+   "code": "LNG-5",
+   "title": "Translations, part 5",
+   "plain": "Translations, part 5",
+   "queue": "zircon",
+   "column": "Backlog",
+   "status": "not started",
+   "points": 2,
+   "status_date": "2000-01-15"
+  },
+  {
+   "code": "BAK-1",
+   "title": "Backups, part 1",
+   "plain": "Backups, part 1",
+   "queue": "quartz",
+   "column": "Done",
+   "status": "DONE 2000-01-11 APPROVED",
+   "points": 2,
+   "status_date": "2000-01-11"
+  },
+  {
+   "code": "BAK-2",
+   "title": "Backups, part 2",
+   "plain": "Backups, part 2",
+   "queue": "quartz",
+   "column": "Done",
+   "status": "DONE 2000-01-12 APPROVED",
+   "points": 2,
+   "status_date": "2000-01-12"
+  },
+  {
+   "code": "BAK-3",
+   "title": "Backups, part 3",
+   "plain": "Backups, part 3",
+   "queue": "quartz",
+   "column": "Done",
+   "status": "DONE 2000-01-13 APPROVED",
+   "points": 2,
+   "status_date": "2000-01-13"
+  },
+  {
+   "code": "BAK-4",
+   "title": "Backups, part 4",
+   "plain": "Backups, part 4",
+   "queue": "quartz",
+   "column": "Done",
+   "status": "DONE 2000-01-14 APPROVED",
+   "points": 2,
+   "status_date": "2000-01-14"
+  },
+  {
+   "code": "ACC-1",
+   "title": "Accessibility, part 1",
+   "plain": "Accessibility, part 1",
+   "queue": "basalt",
+   "column": "Done",
+   "status": "DONE 2000-01-11 APPROVED",
+   "points": 2,
+   "status_date": "2000-01-11"
+  },
+  {
+   "code": "ACC-2",
+   "title": "Accessibility, part 2",
+   "plain": "Accessibility, part 2",
+   "queue": "basalt",
+   "column": "Backlog",
+   "status": "not started",
+   "points": 2,
+   "status_date": "2000-01-15"
+  },
+  {
+   "code": "ACC-3",
+   "title": "Accessibility, part 3",
+   "plain": "Accessibility, part 3",
+   "queue": "basalt",
+   "column": "Backlog",
+   "status": "not started",
+   "points": 2,
+   "status_date": "2000-01-15"
+  },
+  {
+   "code": "ACC-4",
+   "title": "Accessibility, part 4",
+   "plain": "Accessibility, part 4",
+   "queue": "basalt",
+   "column": "Backlog",
+   "status": "not started",
+   "points": 2,
+   "status_date": "2000-01-15"
+  },
+  {
+   "code": "ACC-5",
+   "title": "Accessibility, part 5",
+   "plain": "Accessibility, part 5",
+   "queue": "basalt",
+   "column": "Backlog",
+   "status": "not started",
+   "points": 2,
+   "status_date": "2000-01-15"
+  },
+  {
+   "code": "ACC-6",
+   "title": "Accessibility, part 6",
+   "plain": "Accessibility, part 6",
+   "queue": "basalt",
+   "column": "Backlog",
+   "status": "not started",
+   "points": 2,
+   "status_date": "2000-01-15"
+  },
+  {
+   "code": "REP-1",
+   "title": "Reports, part 1",
+   "plain": "Reports, part 1",
+   "queue": "mica",
+   "column": "Done",
+   "status": "DONE 2000-01-11 APPROVED",
+   "points": 2,
+   "status_date": "2000-01-11"
+  },
+  {
+   "code": "REP-2",
+   "title": "Reports, part 2",
+   "plain": "Reports, part 2",
+   "queue": "mica",
+   "column": "Done",
+   "status": "DONE 2000-01-12 APPROVED",
+   "points": 2,
+   "status_date": "2000-01-12"
+  },
+  {
+   "code": "REP-3",
+   "title": "Reports, part 3",
+   "plain": "Reports, part 3",
+   "queue": "mica",
+   "column": "Done",
+   "status": "DONE 2000-01-13 APPROVED",
+   "points": 2,
+   "status_date": "2000-01-13"
+  },
+  {
+   "code": "REP-4",
+   "title": "Reports, part 4",
+   "plain": "Reports, part 4",
+   "queue": "mica",
+   "column": "Backlog",
+   "status": "not started",
+   "points": 2,
+   "status_date": "2000-01-15"
+  },
+  {
+   "code": "REP-5",
+   "title": "Reports, part 5",
+   "plain": "Reports, part 5",
+   "queue": "mica",
+   "column": "Backlog",
+   "status": "not started",
+   "points": 2,
+   "status_date": "2000-01-15"
+  }
+ ],
+ "epics": {
+  "list": [
+   {
+    "code": "EPIC-1",
+    "name": "Search",
+    "goal": "Results in under a second",
+    "target": "2000-02-01",
+    "target_text": "early February",
+    "owner": "onyx",
+    "done_when": "The search index change is merged.",
+    "cards": [
+     "TASK-101",
+     "TASK-102",
+     "TASK-103"
+    ],
+    "state": {
+     "value": "on track",
+     "note": "Review under way"
+    }
+   },
+   {
+    "code": "EPIC-2",
+    "name": "Status view",
+    "goal": "One page that shows what is running",
+    "target": "2000-03-01",
+    "target_text": "March",
+    "owner": "basalt",
+    "done_when": "The status view is live.",
+    "cards": [
+     "TASK-100",
+     "TASK-104",
+     "TASK-106"
+    ],
+    "state": {
+     "value": "on track",
+     "note": "Waiting on the build"
+    }
+   },
+   {
+    "code": "EPIC-3",
+    "name": "Getting started",
+    "goal": "A stranger can run it in five minutes",
+    "target": null,
+    "target_text": null,
+    "owner": "zircon",
+    "done_when": "The page is published.",
+    "cards": [
+     "TASK-107",
+     "TASK-105"
+    ],
+    "state": {
+     "value": "waiting",
+     "note": "One question open"
+    }
+   },
+   {
+    "code": "EPIC-4",
+    "name": "Plugins",
+    "goal": "Third parties can add panels",
+    "target": null,
+    "owner": "owner",
+    "done_when": "One sample plugin runs.",
+    "cards": [
+     "TASK-108",
+     "TASK-109"
+    ],
+    "state": {
+     "value": "not started"
+    }
+   },
+   {
+    "code": "EPIC-5",
+    "name": "Mobile layout",
+    "goal": "Works on a small screen",
+    "target_text": "spring",
+    "owner": "topaz",
+    "done_when": "The panel and captions fit a phone.",
+    "cards": [
+     "MOB-1",
+     "MOB-2",
+     "MOB-3",
+     "MOB-4",
+     "MOB-5",
+     "MOB-6",
+     "MOB-7",
+     "MOB-8"
+    ],
+    "state": {
+     "value": "on track"
+    }
+   },
+   {
+    "code": "EPIC-6",
+    "name": "Import tool",
+    "goal": "Bring in data from a spreadsheet",
+    "target_text": "summer",
+    "owner": "garnet",
+    "done_when": "A sample file imports cleanly.",
+    "cards": [
+     "IMP-1",
+     "IMP-2",
+     "IMP-3",
+     "IMP-4",
+     "IMP-5",
+     "IMP-6"
+    ],
+    "state": {
+     "value": "on track"
+    }
+   },
+   {
+    "code": "EPIC-7",
+    "name": "Translations",
+    "goal": "Text can be swapped per language",
+    "owner": "zircon",
+    "done_when": "Two languages ship.",
+    "cards": [
+     "LNG-1",
+     "LNG-2",
+     "LNG-3",
+     "LNG-4",
+     "LNG-5"
+    ],
+    "state": {
+     "value": "on track"
+    }
+   },
+   {
+    "code": "EPIC-8",
+    "name": "Backups",
+    "goal": "A nightly copy that restores",
+    "owner": "quartz",
+    "done_when": "A restore test passes.",
+    "cards": [
+     "BAK-1",
+     "BAK-2",
+     "BAK-3",
+     "BAK-4"
+    ],
+    "state": {
+     "value": "done",
+     "note": "Restore test passed"
+    }
+   },
+   {
+    "code": "EPIC-9",
+    "name": "Accessibility",
+    "goal": "Usable by keyboard alone",
+    "owner": "basalt",
+    "done_when": "Every control has a key.",
+    "cards": [
+     "ACC-1",
+     "ACC-2",
+     "ACC-3",
+     "ACC-4",
+     "ACC-5",
+     "ACC-6"
+    ],
+    "state": {
+     "value": "on track"
+    }
+   },
+   {
+    "code": "EPIC-10",
+    "name": "Reports",
+    "goal": "A weekly summary page",
+    "owner": "mica",
+    "done_when": "One week reports itself.",
+    "cards": [
+     "REP-1",
+     "REP-2",
+     "REP-3",
+     "REP-4",
+     "REP-5"
+    ],
+    "state": {
+     "value": "on track"
+    }
+   }
+  ]
+ },
+ "runs": [
+  {
+   "date": "2000-01-15",
+   "queue": "onyx",
+   "item": "TASK-100r",
+   "start": "10:30",
+   "end": "10:50"
+  },
+  {
+   "date": "2000-01-15",
+   "queue": "cobalt",
+   "item": "TASK-103",
+   "start": "11:40",
+   "end": "11:44"
+  },
+  {
+   "date": "2000-01-15",
+   "queue": "basalt",
+   "item": "TASK-104",
+   "start": "11:15",
+   "end": null
+  },
+  {
+   "date": "2000-01-15",
+   "queue": "garnet",
+   "item": "TASK-105",
+   "start": "09:30",
+   "end": "09:30",
+   "skipped": true
+  }
+ ],
+ "load": {
+  "used_pct": 42
+ }
+}

@@ -1,0 +1,167 @@
+{
+  "room": "dock",
+  "shell": "../rooms/dock.png",
+  "sheet": "dock.png",
+  "objects": [
+    {
+      "name": "crane cable reel",
+      "footprint": [
+        23,
+        0,
+        1,
+        1
+      ],
+      "kind": "seatless",
+      "cell": [
+        527,
+        0,
+        37,
+        43
+      ],
+      "origin": [
+        1003,
+        172
+      ]
+    },
+    {
+      "name": "plate stack east",
+      "footprint": [
+        21,
+        0,
+        2,
+        1
+      ],
+      "kind": "lowprofile",
+      "cell": [
+        172,
+        0,
+        67,
+        49
+      ],
+      "origin": [
+        885,
+        192
+      ]
+    },
+    {
+      "name": "dock crane",
+      "footprint": [
+        24,
+        0,
+        2,
+        1
+      ],
+      "kind": "seatless",
+      "cell": [
+        243,
+        0,
+        143,
+        144
+      ],
+      "origin": [
+        1066,
+        105
+      ]
+    },
+    {
+      "name": "cable reel east",
+      "footprint": [
+        20,
+        0,
+        1,
+        1
+      ],
+      "kind": "seatless",
+      "cell": [
+        484,
+        0,
+        39,
+        38
+      ],
+      "origin": [
+        854,
+        212
+      ]
+    },
+    {
+      "name": "cable reel middle",
+      "footprint": [
+        12,
+        0,
+        1,
+        1
+      ],
+      "kind": "seatless",
+      "cell": [
+        441,
+        0,
+        39,
+        33
+      ],
+      "origin": [
+        526,
+        377
+      ]
+    },
+    {
+      "name": "plate stack middle",
+      "footprint": [
+        9,
+        0,
+        2,
+        1
+      ],
+      "kind": "lowprofile",
+      "cell": [
+        97,
+        0,
+        71,
+        56
+      ],
+      "origin": [
+        450,
+        387
+      ]
+    },
+    {
+      "name": "cable reel west",
+      "footprint": [
+        4,
+        0,
+        1,
+        1
+      ],
+      "kind": "seatless",
+      "cell": [
+        390,
+        0,
+        47,
+        38
+      ],
+      "origin": [
+        207,
+        534
+      ]
+    },
+    {
+      "name": "plate stack west",
+      "footprint": [
+        1,
+        0,
+        2,
+        1
+      ],
+      "kind": "lowprofile",
+      "cell": [
+        0,
+        0,
+        93,
+        64
+      ],
+      "origin": [
+        114,
+        551
+      ]
+    }
+  ]
+}

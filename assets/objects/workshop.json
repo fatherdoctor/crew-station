@@ -1,0 +1,167 @@
+{
+  "room": "workshop",
+  "shell": "../rooms/workshop.png",
+  "sheet": "workshop.png",
+  "objects": [
+    {
+      "name": "drill bench",
+      "footprint": [
+        0,
+        0,
+        1,
+        2
+      ],
+      "kind": "desk",
+      "cell": [
+        189,
+        0,
+        67,
+        93
+      ],
+      "origin": [
+        408,
+        219
+      ]
+    },
+    {
+      "name": "parts shelves",
+      "footprint": [
+        1,
+        0,
+        2,
+        1
+      ],
+      "kind": "seatless",
+      "cell": [
+        260,
+        0,
+        55,
+        75
+      ],
+      "origin": [
+        496,
+        238
+      ]
+    },
+    {
+      "name": "tool cabinet",
+      "footprint": [
+        7,
+        0,
+        1,
+        1
+      ],
+      "kind": "seatless",
+      "cell": [
+        428,
+        0,
+        56,
+        81
+      ],
+      "origin": [
+        543,
+        245
+      ]
+    },
+    {
+      "name": "work desk",
+      "footprint": [
+        1,
+        1,
+        2,
+        1
+      ],
+      "kind": "desk",
+      "cell": [
+        0,
+        0,
+        91,
+        78
+      ],
+      "origin": [
+        454,
+        283
+      ]
+    },
+    {
+      "name": "service bench",
+      "footprint": [
+        7,
+        2,
+        1,
+        1
+      ],
+      "kind": "desk",
+      "cell": [
+        570,
+        0,
+        47,
+        42
+      ],
+      "origin": [
+        677,
+        347
+      ]
+    },
+    {
+      "name": "lathe",
+      "footprint": [
+        0,
+        5,
+        1,
+        2
+      ],
+      "kind": "desk",
+      "cell": [
+        319,
+        0,
+        105,
+        86
+      ],
+      "origin": [
+        238,
+        307
+      ]
+    },
+    {
+      "name": "hydraulic press",
+      "footprint": [
+        8,
+        0,
+        2,
+        1
+      ],
+      "kind": "desk",
+      "cell": [
+        488,
+        0,
+        78,
+        106
+      ],
+      "origin": [
+        711,
+        323
+      ]
+    },
+    {
+      "name": "lamp work desk",
+      "footprint": [
+        6,
+        1,
+        2,
+        1
+      ],
+      "kind": "desk",
+      "cell": [
+        95,
+        0,
+        90,
+        80
+      ],
+      "origin": [
+        606,
+        364
+      ]
+    }
+  ]
+}

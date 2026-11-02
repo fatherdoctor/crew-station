@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Crew Station</title>
+<link rel="preload" href="assets/fonts/vt323.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="css/station.css">
+</head>
+<body>
+<canvas id="stage"></canvas>
+<div id="hud">
+  <header id="hud-top">
+    <div id="hud-title">CREW STATION</div>
+    <div id="hud-clock"></div>
+    <div id="hud-right">
+      <a id="hud-board" href="data/sample-board.json" target="_blank" rel="noopener">Board &#8599;</a>
+    </div>
+  </header>
+  <div id="hud-stale" hidden></div>
+  <div id="hud-caption" hidden></div>
+  <div id="hud-toast" hidden></div>
+  <div id="hud-loading">loading the station&hellip;</div>
+</div>
+<aside id="crew-panel" aria-label="Crew"></aside>
+<script src="js/loadq.js"></script>
+<script src="js/config.js"></script>
+<script src="js/iso.js"></script>
+<script src="js/world.js"></script>
+<script src="js/floors.js"></script>
+<script src="js/backdrop.js"></script>
+<script src="js/objects.js"></script>
+<script src="js/sprites.js"></script>
+<script src="js/props.js"></script>
+<script src="js/board.js"></script>
+<script src="js/fx.js"></script>
+<script src="js/agents.js"></script>
+<script src="js/interactions.js"></script>
+<script src="js/camera.js"></script>
+<script src="js/hud.js"></script>
+<script src="js/crewpanel.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

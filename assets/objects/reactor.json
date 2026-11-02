@@ -1,0 +1,67 @@
+{
+  "room": "reactor",
+  "shell": "../rooms/reactor.png",
+  "sheet": "reactor.png",
+  "objects": [
+    {
+      "name": "control console",
+      "cell": [
+        0,
+        0,
+        45,
+        46
+      ],
+      "origin": [
+        498,
+        288
+      ],
+      "footprint": [
+        3,
+        1,
+        2,
+        1
+      ],
+      "kind": "desk"
+    },
+    {
+      "name": "coolant tanks",
+      "cell": [
+        246,
+        0,
+        76,
+        81
+      ],
+      "origin": [
+        678,
+        325
+      ],
+      "footprint": [
+        7,
+        0,
+        2,
+        1
+      ],
+      "kind": "seatless"
+    },
+    {
+      "name": "reactor core and plinth",
+      "cell": [
+        49,
+        0,
+        193,
+        273
+      ],
+      "origin": [
+        416,
+        164
+      ],
+      "footprint": [
+        3,
+        2,
+        3,
+        3
+      ],
+      "kind": "seatless"
+    }
+  ]
+}

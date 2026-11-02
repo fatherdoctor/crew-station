@@ -1,0 +1,67 @@
+{
+  "room": "pad",
+  "shell": "../rooms/pad.png",
+  "sheet": "pad.png",
+  "objects": [
+    {
+      "name": "service crane",
+      "footprint": [
+        8,
+        0,
+        2,
+        1
+      ],
+      "kind": "seatless",
+      "cell": [
+        59,
+        0,
+        77,
+        68
+      ],
+      "origin": [
+        715,
+        342
+      ]
+    },
+    {
+      "name": "cable reel",
+      "footprint": [
+        8,
+        1,
+        1,
+        1
+      ],
+      "kind": "seatless",
+      "cell": [
+        140,
+        0,
+        54,
+        44
+      ],
+      "origin": [
+        707,
+        379
+      ]
+    },
+    {
+      "name": "boarding ramp",
+      "footprint": [
+        7,
+        4,
+        1,
+        1
+      ],
+      "kind": "seatless",
+      "cell": [
+        0,
+        0,
+        55,
+        43
+      ],
+      "origin": [
+        552,
+        412
+      ]
+    }
+  ]
+}

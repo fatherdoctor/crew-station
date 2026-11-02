@@ -1,0 +1,27 @@
+{
+  "room": "charging",
+  "shell": "../rooms/charging.png",
+  "sheet": "charging.png",
+  "objects": [
+    {
+      "name": "transformer",
+      "footprint": [
+        0,
+        4,
+        1,
+        2
+      ],
+      "kind": "seatless",
+      "cell": [
+        0,
+        0,
+        82,
+        125
+      ],
+      "origin": [
+        267,
+        263
+      ]
+    }
+  ]
+}

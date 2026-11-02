@@ -1,0 +1,87 @@
+{
+  "room": "planning",
+  "shell": "../rooms/planning.png",
+  "sheet": "planning.png",
+  "objects": [
+    {
+      "name": "command desk",
+      "footprint": [
+        3,
+        1,
+        3,
+        1
+      ],
+      "kind": "desk",
+      "cell": [
+        0,
+        0,
+        94,
+        76
+      ],
+      "origin": [
+        535,
+        316
+      ]
+    },
+    {
+      "name": "storage cabinet",
+      "footprint": [
+        9,
+        0,
+        1,
+        1
+      ],
+      "kind": "seatless",
+      "cell": [
+        358,
+        0,
+        37,
+        56
+      ],
+      "origin": [
+        729,
+        349
+      ]
+    },
+    {
+      "name": "terrain holotable",
+      "footprint": [
+        1,
+        4,
+        2,
+        2
+      ],
+      "kind": "desk",
+      "cell": [
+        280,
+        0,
+        74,
+        64
+      ],
+      "origin": [
+        343,
+        343
+      ]
+    },
+    {
+      "name": "war table",
+      "footprint": [
+        4,
+        3,
+        3,
+        3
+      ],
+      "kind": "desk",
+      "cell": [
+        98,
+        0,
+        178,
+        109
+      ],
+      "origin": [
+        420,
+        357
+      ]
+    }
+  ]
+}

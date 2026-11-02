@@ -1,0 +1,47 @@
+{
+  "room": "observatory",
+  "shell": "../rooms/observatory.png",
+  "sheet": "observatory.png",
+  "objects": [
+    {
+      "name": "telescope",
+      "footprint": [
+        0,
+        0,
+        2,
+        2
+      ],
+      "kind": "seatless",
+      "cell": [
+        0,
+        0,
+        106,
+        132
+      ],
+      "origin": [
+        428,
+        180
+      ]
+    },
+    {
+      "name": "astronomy desk",
+      "footprint": [
+        4,
+        1,
+        2,
+        2
+      ],
+      "kind": "desk",
+      "cell": [
+        110,
+        0,
+        108,
+        94
+      ],
+      "origin": [
+        521,
+        309
+      ]
+    }
+  ]
+}

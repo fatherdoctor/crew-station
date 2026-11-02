@@ -1,0 +1,38 @@
+[
+ {
+  "name": "block-hull",
+  "prompt": "Create ONE game sprite, no labels, text, border, ground or shadow outside object. Transparent background. Match reference room gunmetal, charcoal, worn rivets and small amber accents. Extremely low resolution crisp retro pixel art, hard edges, no antialiasing, no gradients. Intended final sprite64px wide48px tall: top face is a2:1 diamond with vertices(32,0),(64,16),(32,32),(0,16); two visible vertical faces extend16px down, bottom point(32,48). True orthographic2:1 isometric, same camera for every cube. Fill canvas with single cube, no margins, no perspective. Render as large integer-upscaled pixel art preserving a64x48 logical pixel grid. Plain riveted gunmetal hull plating cube. No windows or attachments."
+ },
+ {
+  "name": "block-hull-window",
+  "prompt": "Create ONE game sprite, no labels, text, border, ground or shadow outside object. Transparent background. Match reference room gunmetal, charcoal, worn rivets and small amber accents. Extremely low resolution crisp retro pixel art, hard edges, no antialiasing, no gradients. Intended final sprite64px wide48px tall: top face is a2:1 diamond with vertices(32,0),(64,16),(32,32),(0,16); two visible vertical faces extend16px down, bottom point(32,48). True orthographic2:1 isometric, same camera for every cube. Fill canvas with single cube, no margins, no perspective. Render as large integer-upscaled pixel art preserving a64x48 logical pixel grid. Gunmetal hull plating cube with exactly one small inset lit amber window on EACH of its two visible vertical side faces."
+ },
+ {
+  "name": "block-girder",
+  "prompt": "Create ONE game sprite, no labels, text, border, ground or shadow outside object. Transparent background. Match reference room gunmetal, charcoal, worn rivets and small amber accents. Extremely low resolution crisp retro pixel art, hard edges, no antialiasing, no gradients. Intended final sprite64px wide48px tall: top face is a2:1 diamond with vertices(32,0),(64,16),(32,32),(0,16); two visible vertical faces extend16px down, bottom point(32,48). True orthographic2:1 isometric, same camera for every cube. Fill canvas with single cube, no margins, no perspective. Render as large integer-upscaled pixel art preserving a64x48 logical pixel grid. An OPEN see-through industrial steel girder frame cube, worn orange-yellow steel beams and diagonal braces, completely transparent gaps, no solid faces."
+ },
+ {
+  "name": "block-vent",
+  "prompt": "Create ONE game sprite, no labels, text, border, ground or shadow outside object. Transparent background. Match reference room gunmetal, charcoal, worn rivets and small amber accents. Extremely low resolution crisp retro pixel art, hard edges, no antialiasing, no gradients. Intended final sprite64px wide48px tall: top face is a2:1 diamond with vertices(32,0),(64,16),(32,32),(0,16); two visible vertical faces extend16px down, bottom point(32,48). True orthographic2:1 isometric, same camera for every cube. Fill canvas with single cube, no margins, no perspective. Render as large integer-upscaled pixel art preserving a64x48 logical pixel grid. Gunmetal hull plating cube with one dark slatted vent grille on the left/front visible side face."
+ },
+ {
+  "name": "block-roof",
+  "prompt": "Create ONE game sprite, no labels, text, border, ground or shadow outside object. Transparent background. Match reference room gunmetal, charcoal, worn rivets and small amber accents. Extremely low resolution crisp retro pixel art, hard edges, no antialiasing, no gradients. Intended final sprite64px wide48px tall: top face is a2:1 diamond with vertices(32,0),(64,16),(32,32),(0,16); two visible vertical faces extend16px down, bottom point(32,48). True orthographic2:1 isometric, same camera for every cube. Fill canvas with single cube, no margins, no perspective. Render as large integer-upscaled pixel art preserving a64x48 logical pixel grid. Gunmetal cube roof block; top diamond has an inset amber landing-light pattern, sides plain gunmetal plating."
+ },
+ {
+  "name": "block-roof-done",
+  "prompt": "Create ONE game sprite, no labels, text, border, ground or shadow outside object. Transparent background. Match reference room gunmetal, charcoal, worn rivets and small amber accents. Extremely low resolution crisp retro pixel art, hard edges, no antialiasing, no gradients. Intended final sprite64px wide48px tall: top face is a2:1 diamond with vertices(32,0),(64,16),(32,32),(0,16); two visible vertical faces extend16px down, bottom point(32,48). True orthographic2:1 isometric, same camera for every cube. Fill canvas with single cube, no margins, no perspective. Render as large integer-upscaled pixel art preserving a64x48 logical pixel grid. Gunmetal cube roof block; top diamond has inset amber landing-light pattern and a small GREEN beacon on top, sides plain gunmetal plating. Beacon fully within canvas."
+ },
+ {
+  "name": "block-crate",
+  "prompt": "Create ONE game sprite, no labels, text, border, ground or shadow outside object. Transparent background. Match reference room gunmetal, charcoal, worn rivets and small amber accents. Extremely low resolution crisp retro pixel art, hard edges, no antialiasing, no gradients. Intended final sprite64px wide48px tall: top face is a2:1 diamond with vertices(32,0),(64,16),(32,32),(0,16); two visible vertical faces extend16px down, bottom point(32,48). True orthographic2:1 isometric, same camera for every cube. Fill canvas with single cube, no margins, no perspective. Render as large integer-upscaled pixel art preserving a64x48 logical pixel grid. Supply crate cube, dark worn wooden boards with gunmetal steel straps and rivets."
+ },
+ {
+  "name": "block-ghost",
+  "prompt": "Create ONE game sprite, no labels, text, border, ground or shadow outside object. Transparent background. Match reference room gunmetal, charcoal, worn rivets and small amber accents. Extremely low resolution crisp retro pixel art, hard edges, no antialiasing, no gradients. Intended final sprite64px wide48px tall: top face is a2:1 diamond with vertices(32,0),(64,16),(32,32),(0,16); two visible vertical faces extend16px down, bottom point(32,48). True orthographic2:1 isometric, same camera for every cube. Fill canvas with single cube, no margins, no perspective. Render as large integer-upscaled pixel art preserving a64x48 logical pixel grid. Translucent cold blue WIREFRAME cube, thin crisp edges only with see-through empty faces. No solid faces."
+ },
+ {
+  "name": "hook",
+  "prompt": "Create ONE game sprite, no labels, text, border, ground or shadow outside object. Transparent background. Match reference room gunmetal, charcoal, worn rivets and small amber accents. Extremely low resolution crisp retro pixel art, hard edges, no antialiasing, no gradients. Intended final sprite64px wide48px tall: top face is a2:1 diamond with vertices(32,0),(64,16),(32,32),(0,16); two visible vertical faces extend16px down, bottom point(32,48). True orthographic2:1 isometric, same camera for every cube. Fill canvas with single cube, no margins, no perspective. Render as large integer-upscaled pixel art preserving a64x48 logical pixel grid. A small crane cable and hook seen straight from SIDE, narrow vertical sprite, cable at top descending into industrial steel J hook at bottom. Fits16wide48tall. No cube."
+ }
+]

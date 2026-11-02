@@ -1,0 +1,67 @@
+{
+  "room": "bridge",
+  "shell": "../rooms/bridge.png",
+  "sheet": "bridge.png",
+  "objects": [
+    {
+      "name": "console desk",
+      "cell": [
+        0,
+        0,
+        80,
+        71
+      ],
+      "origin": [
+        566,
+        310
+      ],
+      "footprint": [
+        4,
+        0,
+        2,
+        2
+      ],
+      "kind": "desk"
+    },
+    {
+      "name": "crate",
+      "cell": [
+        204,
+        0,
+        78,
+        70
+      ],
+      "origin": [
+        313,
+        355
+      ],
+      "footprint": [
+        1,
+        5,
+        2,
+        2
+      ],
+      "kind": "seatless"
+    },
+    {
+      "name": "holotable",
+      "cell": [
+        84,
+        0,
+        116,
+        106
+      ],
+      "origin": [
+        464,
+        379
+      ],
+      "footprint": [
+        5,
+        4,
+        3,
+        3
+      ],
+      "kind": "desk"
+    }
+  ]
+}

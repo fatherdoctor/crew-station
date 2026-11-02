@@ -1,0 +1,67 @@
+{
+  "room": "bench",
+  "shell": "../rooms/bench.png",
+  "sheet": "bench.png",
+  "objects": [
+    {
+      "name": "workbench terminal section",
+      "footprint": [
+        0,
+        0,
+        3,
+        1
+      ],
+      "kind": "desk",
+      "cell": [
+        0,
+        0,
+        105,
+        84
+      ],
+      "origin": [
+        484,
+        262
+      ]
+    },
+    {
+      "name": "workbench vise section",
+      "footprint": [
+        3,
+        0,
+        3,
+        1
+      ],
+      "kind": "desk",
+      "cell": [
+        109,
+        0,
+        104,
+        77
+      ],
+      "origin": [
+        580,
+        315
+      ]
+    },
+    {
+      "name": "workbench testing section",
+      "footprint": [
+        6,
+        0,
+        3,
+        1
+      ],
+      "kind": "desk",
+      "cell": [
+        217,
+        0,
+        112,
+        92
+      ],
+      "origin": [
+        672,
+        352
+      ]
+    }
+  ]
+}
