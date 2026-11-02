@@ -4,17 +4,17 @@ This document will help you set up your local development environment and get st
 Contributions are much appreciated. You don't need to open an issue before starting: send a pull request directly, as a draft if you'd like to talk through the idea first.
 
 - [Crew Station Development Guide](#crew-station-development-guide)
-  - [📦 Requirements](#-requirements)
-  - [🧪 Setting Up the Development Environment](#-setting-up-the-development-environment)
-    - [🔧 Installation](#-installation-one-time-setup)
+  - [Requirements](#requirements)
+  - [Setting Up the Development Environment](#setting-up-the-development-environment)
+    - [Installation](#installation-one-time-setup)
     - [Running the Page](#running-the-page)
     - [Running the Checks](#running-the-checks)
     - [Testing Your Changes](#testing-your-changes)
-  - [🔀 Submitting a Pull Request](#-submitting-a-pull-request)
-  - [🎨 Adding Art](#-adding-art)
-  - [❓ FAQ](#-faq)
+  - [Submitting a Pull Request](#submitting-a-pull-request)
+  - [Adding Art](#adding-art)
+  - [FAQ](#faq)
 
-## 📦 Requirements
+## Requirements
 
 Before you begin, please ensure you have the following tools installed on your system:
 
@@ -28,9 +28,9 @@ There is no build step, no bundler and no dependency install.
 
 ---
 
-## 🧪 Setting Up the Development Environment
+## Setting Up the Development Environment
 
-### 🔧 Installation (one-time setup)
+### Installation (one-time setup)
 
 1. Fork the repository:
    - Visit https://github.com/fatherdoctor/crew-station
@@ -82,7 +82,7 @@ The check script can't see the page, so please test in a browser. Before submitt
 
 ---
 
-## 🔀 Submitting a Pull Request
+## Submitting a Pull Request
 
 No issue is needed. To submit a change:
 
@@ -99,7 +99,7 @@ By contributing, you agree that your work is released under the [MIT License](LI
 
 ---
 
-## 🎨 Adding Art
+## Adding Art
 
 Start with [art-kit/ART-GUIDE.md](art-kit/ART-GUIDE.md) for the style and sizes and [art-kit/TOOLS.md](art-kit/TOOLS.md) for the scripts. [AGENTS.md](AGENTS.md#how-the-art-fits-together) explains how the page uses it.
 
@@ -109,7 +109,7 @@ Start with [art-kit/ART-GUIDE.md](art-kit/ART-GUIDE.md) for the style and sizes 
 
 ---
 
-## ❓ FAQ
+## FAQ
 
 ### Why does the page fail when I open `index.html` directly?
 
