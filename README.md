@@ -60,7 +60,7 @@ python3 -m http.server 8000
 
 Then open http://localhost:8000/. Any static web server works. Opening `index.html` directly from disk does not, because the page fetches JSON.
 
-To place it in another project, copy `index.html`, `css/`, `js/`, `assets/` and `data/` into one served folder, along with `LICENSE` and `NOTICE.md`. [AGENTS.md](AGENTS.md#using-it-in-another-project) has the steps.
+To place it in another project, copy `index.html`, `css/`, `js/`, `assets/` and `data/` into one served folder, along with `LICENSE` and `NOTICE.md`. [docs/AGENT-REFERENCE.md](docs/AGENT-REFERENCE.md#using-it-in-another-project) has the steps.
 
 ## Updating
 
@@ -72,11 +72,11 @@ Delete the folder. Nothing else is installed, and the page keeps only small view
 
 ## Usage
 
-Open the page and watch. Drag or use the keyboard to move around, zoom in on a room, and tap a figure, room or dock module for its caption. The crew panel opens the details for each member. [AGENTS.md](AGENTS.md#input) lists all the controls.
+Open the page and watch. Drag or use the keyboard to move around, zoom in on a room, and tap a figure, room or dock module for its caption. The crew panel opens the details for each member. [docs/AGENT-REFERENCE.md](docs/AGENT-REFERENCE.md#input) lists all the controls.
 
 ### Feeding it your own board
 
-Write a JSON file in the format documented in [the board schema](AGENTS.md#board-schema), then point the page at it. Strongest first:
+Write a JSON file in the format documented in [the board schema](docs/AGENT-REFERENCE.md#board-schema), then point the page at it. Strongest first:
 
 * In the URL: `index.html?board=/api/board.json`
 * In the page: `<meta name="crew-board-url" content="/api/board.json">` in `index.html`
@@ -94,11 +94,11 @@ node tools/check.js --board my-board.json
 * `?night=1` forces night.
 * `?board=<url>` reads another board file.
 
-[AGENTS.md](AGENTS.md#url-switches) lists them all.
+[docs/AGENT-REFERENCE.md](docs/AGENT-REFERENCE.md#url-switches) lists them all.
 
 ## Learn more
 
-* [AGENTS.md](AGENTS.md): the full guide, written for coding agents and useful to anyone. It covers the board schema, live data, adding crew, rooms and desks, changing art, and placing it in another project.
+* [docs/AGENT-REFERENCE.md](docs/AGENT-REFERENCE.md): the full guide, written for coding agents and useful to anyone. It covers the board schema, live data, adding crew, rooms and desks, changing art, and placing it in another project.
 * [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md): how the code is organized.
 * [art-kit/](art-kit/ART-GUIDE.md): for making new art that matches: a style guide, wireframe guides, sprite sheet templates, reference stills and scripts. The page does not load anything from it.
 
