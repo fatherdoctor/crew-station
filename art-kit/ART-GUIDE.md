@@ -1,7 +1,7 @@
 # Crew Station art guide
 
 How to make new art that matches Crew Station: a crew member, a room, an object, a hall piece, a block or a prop.
-Read this next to the page's own repository. "The page" means that tree; its `AGENTS.md` covers how art is wired in.
+Read this next to the page's own repository. "The page" means that tree; its `docs/AGENT-REFERENCE.md` covers how art is wired in.
 
 What is here:
 

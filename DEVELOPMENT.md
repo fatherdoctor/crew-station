@@ -51,7 +51,7 @@ python3 -m http.server 8000
 
 Then open http://localhost:8000/. Reload to see your changes, and turn on "Disable cache" in the browser's developer tools while you work.
 
-Useful switches while developing: `?demo=1` rotates the crew through their states, `?night=1` forces night, `?reducedmotion=1` removes particles, and `?bdgrid=1` draws the tile grid. [AGENTS.md](AGENTS.md#url-switches) lists them all.
+Useful switches while developing: `?demo=1` rotates the crew through their states, `?night=1` forces night, `?reducedmotion=1` removes particles, and `?bdgrid=1` draws the tile grid. [docs/AGENT-REFERENCE.md](docs/AGENT-REFERENCE.md#url-switches) lists them all.
 
 ### Running the Checks
 
@@ -66,7 +66,7 @@ node tools/check.js --board my-board.json
 node --check js/fx.js
 ```
 
-The check script doesn't see everything. [AGENTS.md](AGENTS.md#change-the-crew) says what it misses.
+The check script doesn't see everything. [docs/AGENT-REFERENCE.md](docs/AGENT-REFERENCE.md#change-the-crew) says what it misses.
 
 ### Testing Your Changes
 
@@ -74,11 +74,11 @@ The check script can't see the page, so please test in a browser. Before submitt
 
 1. Run `node tools/check.js`; it must exit 0.
 2. Load the page at desktop width and at a phone width of about 390 x 844.
-3. Keep the console free of errors. A few warnings are normal on a healthy start, and [AGENTS.md](AGENTS.md#console-warnings-on-a-healthy-start) lists them. Look for anything new.
+3. Keep the console free of errors. A few warnings are normal on a healthy start, and [docs/AGENT-REFERENCE.md](docs/AGENT-REFERENCE.md#console-warnings-on-a-healthy-start) lists them. Look for anything new.
 4. Try `?demo=1` and `?night=1` if your change touches the crew, lighting or board data.
 5. Switch away from the tab and come back. The floors, halls and figures must still draw.
 
-[AGENTS.md](AGENTS.md#behaviors-that-must-hold) lists the behaviors that must keep working.
+[docs/AGENT-REFERENCE.md](docs/AGENT-REFERENCE.md#behaviors-that-must-hold) lists the behaviors that must keep working.
 
 ---
 
@@ -101,7 +101,7 @@ By contributing, you agree that your work is released under the [MIT License](LI
 
 ## Adding Art
 
-Start with [art-kit/ART-GUIDE.md](art-kit/ART-GUIDE.md) for the style and sizes and [art-kit/TOOLS.md](art-kit/TOOLS.md) for the scripts. [AGENTS.md](AGENTS.md#how-the-art-fits-together) explains how the page uses it.
+Start with [art-kit/ART-GUIDE.md](art-kit/ART-GUIDE.md) for the style and sizes and [art-kit/TOOLS.md](art-kit/TOOLS.md) for the scripts. [docs/AGENT-REFERENCE.md](docs/AGENT-REFERENCE.md#how-the-art-fits-together) explains how the page uses it.
 
 - Only add art you have the right to release under MIT.
 - Hard-edged pixel art with real transparency, no text or logos, and no metadata.
