@@ -4,21 +4,6 @@ An isometric pixel-art space station in the browser, where a crew of robots acts
 
 ![The whole station](screenshots/cover.png)
 
-- [Crew Station](#crew-station)
-  - [Introduction](#introduction)
-    - [Features](#features)
-    - [Preview](#preview)
-  - [Installation](#installation)
-  - [Updating](#updating)
-  - [Uninstalling](#uninstalling)
-  - [Usage](#usage)
-    - [Feeding it your own board](#feeding-it-your-own-board)
-    - [URL switches](#url-switches)
-  - [Learn more](#learn-more)
-  - [Making Contributions](#making-contributions)
-  - [Acknowledgments](#acknowledgments)
-  - [License](#license)
-
 ## Introduction
 
 Crew Station turns a JSON work board into a place you can watch. Robots sit at their desks when the data says they are working, carry parcels when work changes hands, charge at night, and build the construction dock block by block as projects close. A crew panel beside the station lists who is doing what.
@@ -28,27 +13,19 @@ It is static HTML, CSS and JavaScript, with no build step and no backend. It rea
 ### Features
 
 * Thirteen rooms and a crew of robots, all as data you can change.
-* A crew panel with who needs attention, who is working, and details for each member.
+* A crew panel showing who needs attention, who is working, and each member's details.
 * Figures that follow the board: working, blocked, waiting on you, or charging.
-* Parcels that carry real events from one crew member to another, and tags showing review results.
+* Parcels that carry events between crew members, with review-result tags.
 * A construction dock where each epic becomes a stack of modules as its cards close.
 * Day and night lighting, with lit rooms where someone is working.
 * Works on desktop and phone widths, with a bottom bar on phones.
-* Handles slow links: a capped loading queue with retries and a visible error rather than a hang, and it redraws itself when a phone drops its canvases in the background.
+* Copes with slow links and phones that drop their canvases in the background.
 
 ### Preview
 
-**Crew member details:** the crew panel, with one member open.
-
 ![Crew member details](screenshots/crew-details.png)
 
-**Construction dock:** an epic pulled up over its stacks.
-
-![The construction dock with an epic pulled up](screenshots/dock-epic.png)
-
-**Waiting on you:** a crew member asking for an answer.
-
-![A crew member waiting on you](screenshots/waiting.png)
+More views (the construction dock, a crew member waiting on you): [docs/screenshots.md](docs/screenshots.md).
 
 ## Installation
 
