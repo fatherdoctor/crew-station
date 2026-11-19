@@ -1,7 +1,7 @@
 # Architecture
 
 Plain HTML plus classic `<script>` files, one global each, drawn with Canvas 2D at `image-rendering: pixelated`.
-`AGENTS.md` has the file map, load order and data formats. This file describes how the code runs.
+`AGENT-REFERENCE.md` has the file map, load order and data formats. This file describes how the code runs.
 
 ## Coordinate systems
 
