@@ -81,7 +81,7 @@ node tools/check.js --board my-board.json
 
 ## Making Contributions
 
-Want to contribute? See the [Development](./DEVELOPMENT.md) documentation for setup instructions. No need to open an issue first: pull requests are welcome directly.
+Want to contribute? See the [Development](./DEVELOPMENT.md) documentation for setup instructions. Start with an issue, then work on a branch and open a pull request into `main` that says `Closes #n`; `CONTRIBUTING.md` has the steps.
 
 ## Acknowledgments
 

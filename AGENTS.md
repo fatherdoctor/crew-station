@@ -380,3 +380,10 @@ Keep these when you change the code.
   closures and merges today.
 - **Read only:** the page's only data input is the board file. `sessionStorage` holds view state alone, under
   `crewstation.*` keys: panel open and closed, shuttle and dock state.
+
+## Rules
+
+- Every change starts from an issue. Open one before the branch, or use the one that exists. The pull request
+  description says `Closes #n`. Work wanted later stays open with the `backlog` label. See `CONTRIBUTING.md`.
+
+See `CONTRIBUTING.md` for the steps and `DEVELOPMENT.md` for setup and testing.

@@ -1,7 +1,7 @@
 # Crew Station Development Guide
 
 This document will help you set up your local development environment and get started with contributing to the project.
-Contributions are much appreciated. You don't need to open an issue before starting: send a pull request directly, as a draft if you'd like to talk through the idea first.
+Contributions are much appreciated. Start with an issue, so we can talk through the idea before you write code. [CONTRIBUTING.md](./CONTRIBUTING.md) has the steps.
 
 - [Crew Station Development Guide](#crew-station-development-guide)
   - [Requirements](#requirements)
@@ -84,12 +84,12 @@ The check script can't see the page, so please test in a browser. Before submitt
 
 ## Submitting a Pull Request
 
-No issue is needed. To submit a change:
+Open an issue first, or use the one that exists. To submit a change:
 
 1. Create a branch on your fork.
 2. Keep the change focused, and match the style of the code around it.
 3. Run through [Testing Your Changes](#testing-your-changes).
-4. Open a pull request against `main` saying what changed, how you tested it, and which browsers you used. Include a screenshot for anything visible.
+4. Open a pull request against `main` that says `Closes #n`, what changed, how you tested it, and which browsers you used. Include a screenshot for anything visible.
 
 Keep the page static: no build step, framework or backend, and no network calls beyond the board file.
 
